@@ -20,7 +20,7 @@ const Contact = () => {
 const handleSubmit = async (event) => {
   event.preventDefault();
   try {
-    const response = await axios.post('http://localhost:5000/send-email', formData);
+    const response = await axios.post('https://portfolio-g8q2.onrender.com/send-email', formData);
     console.log(response.data.message);
     setFormData({ firstname: "", lastname: "", email: "", message: "" });
     alert('Your message has been sent successfully!');
