@@ -1,0 +1,87 @@
+/* Footer Styling */
+.footer {
+  background-color: #1C1C1C;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-phone {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-icon {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.footer-icon:hover {
+  color: #39FF14; /* Hover color */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer {
+    padding: 1rem; /* Reduce padding on smaller screens */
+  }
+
+  .footer-text {
+    font-size: 0.9rem; /* Reduce font size on smaller screens */
+    margin-bottom: 0.8rem;
+  }
+
+  .footer-phone {
+    font-size: 1.1rem; /* Increase font size for better visibility */
+    margin-bottom: 1.2rem;
+  }
+
+  .footer-icons {
+    flex-direction: row; /* Stack icons vertically */
+    gap: 1rem; /* Increase space between icons */
+  }
+
+  .footer-icon {
+    font-size: 2rem; /* Increase size of icons on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 0.8rem; /* Further reduce padding */
+  }
+
+  .footer-text {
+    font-size: 0.85rem; /* Smaller font for even smaller screens */
+    margin-bottom: 0.6rem;
+  }
+
+  .footer-phone {
+    font-size: 1.1rem; /* Keep phone number readable */
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-icons {
+    gap: 1.2rem; /* Further increase space between icons */
+  }
+
+  .footer-icon {
+    font-size: 2.5rem; /* Make icons larger for easy tapping */
+  }
+}

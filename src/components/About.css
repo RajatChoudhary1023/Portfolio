@@ -1,0 +1,29 @@
+.about-me-section {
+    background: #0D0D0D;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  
+  .about-me-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-me-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #32CD32;
+  }
+  
+  .about-me-text {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-me-text span {
+    color: #32CD32;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,253 @@
+/* Hero Section Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background: #0D0D0D;
+  color: white;
+  position: relative;
+  padding: 1rem; /* Add padding for smaller screens */
+}
+
+/* Progress Bar */
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background-color: #39FF14;
+  z-index: 9999;
+  width: 0%;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; /* Set a maximum width for the navbar */
+  padding: 0.5rem 2rem;
+  position: fixed;
+  top: 0;
+  background: #0D0D0D;
+  z-index: 10;
+  margin: 0 auto; /* Center the navbar */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #39FF14;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:not(.cta-button2):hover {
+  color: #32CD32;
+}
+
+/* Hero Content */
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 6rem;
+  gap: 2rem;
+}
+
+.hero-text {
+  flex: 1.5;
+  position: relative;
+  top: -50px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  line-height: 2rem;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  text-align: justify;
+  margin-right: 5rem;
+  line-height: 1.9rem;
+  margin-bottom: 4rem;
+}
+
+.cta-button {
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-image: linear-gradient(30deg, #32CD32 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  transition: background 300ms ease-in-out;
+  border: 1px solid #32CD32;
+}
+
+.cta-button:hover {
+  background-position: 100%;
+  color: white;
+  background-color: #0D0D0D;
+}
+
+.cta-button2 {
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  background-image: linear-gradient(30deg, #0D0D0D 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  transition: background 300ms ease-in-out;
+  border: 1px solid #32CD32;
+}
+
+.cta-button2:hover {
+  background-position: 100%;
+  color: white;
+  background-color: #32CD32;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image-placeholder {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  position: relative;
+  top: -50px;
+}
+
+.resume-link {
+  border: 1px solid #32CD32;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+}
+
+.resume-link:hover {
+  color: red;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .hero-content {
+    flex-direction: column-reverse; /* Stack content vertically */
+    align-items: center;
+    padding-top: 4rem;
+  }
+
+  .hero-text {
+    text-align: center;
+    top: 0; /* Reset offset */
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .nav-links {
+    gap: 1.5rem;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+  }
+
+  .navbar {
+    max-width: 90%; /* Reduce navbar width */
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row; /* Ensure horizontal alignment */
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    max-width: 95%; /* Further reduce width */
+  }
+
+  .nav-links {
+    gap: 1rem;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .cta-button,
+  .cta-button2 {
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 0.5rem;
+  }
+
+  .navbar {
+    max-width: 95%;
+    padding: 0.5rem;
+  }
+
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-text p {
+    font-size: 0.9rem;
+  }
+
+  .cta-button,
+  .cta-button2 {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+  }
+}
