@@ -48,11 +48,12 @@
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
     color: #32CD32;
+    text-align: left;
   }
   
   .project-description {
     font-size: 1rem;
-    text-align: center;
+    text-align: left;
     color: #CCCCCC;
   }
   

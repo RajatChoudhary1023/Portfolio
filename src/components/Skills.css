@@ -19,7 +19,7 @@
   .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 4rem;
+    gap: 3.7rem;
     justify-items: center;
     align-items: center;
   }

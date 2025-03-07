@@ -12,7 +12,9 @@ import tailwindicon from '../logos/tailwind-removebg-preview.png'
 import cppicon from '../logos/images-removebg-preview.png'
 import figmaicon from '../logos/figma2-removebg-preview.png'
 import mongodbicon from '../logos/mongodb-removebg-preview.png'
+import next from '../logos/next.png'
 const skills = [
+  { name: "Next.js", image: next },
   { name: "React.js", image: reacticon },
   { name: "MongoDB", image: mongodbicon },
   { name: "Express.js", image: expressicon },
