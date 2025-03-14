@@ -4,7 +4,6 @@ import gold from '../logos/gold.PNG'
 import dynamo from '../logos/dynamo.jpg'
 import youtube from '../logos/wallhaven-0p5jqj_1920x1080.png'
 import dental from '../logos/dental.jpg'
-import travel from '../logos/travel.png'
 import face from '../logos/face.jpg'
 import pixel from '../logos/pixel.PNG'
 const projects = [
