@@ -3,7 +3,6 @@ import './Projects.css';
 import gold from '../logos/gold.PNG'
 import dynamo from '../logos/dynamo.jpg'
 import youtube from '../logos/wallhaven-0p5jqj_1920x1080.png'
-import dental from '../logos/dental.jpg'
 import face from '../logos/face.jpg'
 import pixel from '../logos/pixel.PNG'
 import solescape from '../logos/solescape.PNG';
