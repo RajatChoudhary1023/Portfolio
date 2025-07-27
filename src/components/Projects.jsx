@@ -6,7 +6,14 @@ import youtube from '../logos/wallhaven-0p5jqj_1920x1080.png'
 import dental from '../logos/dental.jpg'
 import face from '../logos/face.jpg'
 import pixel from '../logos/pixel.PNG'
+import solescape from '../logos/solescape.PNG';
 const projects = [
+  {
+    title: "Solescape - 3D & AR Footwear Ecommerce",
+    description: "An immersive ecommerce platform for showcasing footwear in interactive 3D and Augmented Reality. Built with modern frontend tech, it offers Google Authentication for easy sign-in and integrates 3D model viewers and WebXR to enhance product visualization and customer engagement.",
+    image: solescape, // Replace with the actual image variable
+    link: "https://solescape.vercel.app"
+  },  
   {
     title: "Dynamo - A Search Engine Platform",
     description: "Dynamo is an innovative search engine that combines traditional text search with advanced voice recognition and AI-driven image generation capabilities. Designed for seamless interaction, it empowers users to search, generate, and explore content through an intuitive and modern interface.",
@@ -37,12 +44,12 @@ const projects = [
     image: gold,
     link: "https://github.com/RajatChoudhary1023/Find_The_Gold.git"
   },
-  {
-    title: "Dental Appointment Booking Website",
-    description: "A user-friendly dental website designed to simplify appointment scheduling. The platform allows patients to book dental appointments effortlessly using email, ensuring convenience and accessibility. With a clean and intuitive interface, this project enhances patient engagement and streamlines clinic operations.",
-    image: dental,
-    link: "https://github.com/piyushd23/Dental-Clinic-Website.git"
-  },
+  // {
+  //   title: "Dental Appointment Booking Website",
+  //   description: "A user-friendly dental website designed to simplify appointment scheduling. The platform allows patients to book dental appointments effortlessly using email, ensuring convenience and accessibility. With a clean and intuitive interface, this project enhances patient engagement and streamlines clinic operations.",
+  //   image: dental,
+  //   link: "https://github.com/piyushd23/Dental-Clinic-Website.git"
+  // },
   // {
   //   title: "Tourism Website Design",
   //   description: "Ganga Odyssey is a visually stunning UI/UX design project crafted in Figma, showcasing a travel website concept. Designed to inspire wanderlust, the interface features elegant layouts, intuitive navigation, and a seamless user experience.",

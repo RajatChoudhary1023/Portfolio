@@ -13,6 +13,7 @@ import cppicon from '../logos/images-removebg-preview.png'
 import figmaicon from '../logos/figma2-removebg-preview.png'
 import mongodbicon from '../logos/mongodb-removebg-preview.png'
 import next from '../logos/next.png'
+import blender from '../logos/Blender.png'
 const skills = [
   { name: "Next.js", image: next },
   { name: "React.js", image: reacticon },
@@ -24,6 +25,7 @@ const skills = [
   { name: "Tailwind CSS", image: tailwindicon },
   { name: "JavaScript", image: javascripticon },
   { name: "Figma", image: figmaicon },
+  { name: "Blender", image:blender},
   { name: "MySQL", image: mysqlicon },
   { name: "Python", image: pythonicon },
   { name: "C++", image: cppicon },
